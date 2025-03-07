@@ -11,9 +11,9 @@
 <body>
 
     <!-- nab bar -->
-    <section
-        style=" padding-top: 20px; height: 1000px; padding-left: 150px; background-repeat: no-repeat; background-size: cover; background-image: url(./Asscts/images/backgroun\ 2d.jpeg);">
-        <nav class="bg-red-200 shadow-md w-380 h-22 pt-2  justify-center fixed rounded-4xl">
+    <section id="home"
+        style=" height: 1000px; padding-left: 150px; background-repeat: no-repeat; background-size: cover; background-image: url(./Asscts/images/backgroun\ 2d.jpeg);">
+        <nav class="bg-green-800  shadow-md w-380 h-22 pt-2  justify-center fixed rounded-4xl">
             <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between h-18">
                     <!-- Logo -->
@@ -21,15 +21,15 @@
                         <img src="./Asscts/images/logo3.jpg" class="h-15 w-25">
                     </div>
 
-                    <!-- Desktop Menu -->
-                    <div class="hidden md:flex space-x-6 items-center">
-                        <a href="#" class="text-gray-600 hover:text-blue-600 text-2xl">Home</a>
-                        <a href="#" class="text-gray-600 hover:text-blue-600 text-2xl">About</a>
-                        <a href="#" class="text-gray-600 hover:text-blue-600 text-2xl">Services</a>
-                        <a href="#" class="text-gray-600 hover:text-blue-600 text-2xl">Contact</a>
+
+                    <div class="hidden md:flex space-x-6 items-center ">
+                        <a href="#home" class="text-white hover:text-red-600 text-2xl">Home</a>
+                        <a href="#about" class="text-white hover:text-red-600 text-2xl">About</a>
+                        <a href="#product" class="text-white hover:text-red-600 text-2xl">Products</a>
+                        <a href="#" class="text-white hover:text-red-600 text-2xl">Contact</a>
 
                         <button
-                            class="px-6 py-2 bg-orange-600 text-white rounded-lg hover:bg-red-700 transition duration-300">
+                            class="px-6 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition duration-300">
                             Sign Up
                         </button>
 
@@ -45,21 +45,130 @@
             </div>
             <div>
                 <h2 class="text-6xl pt-90 mr-50 text-white"><b>EXPLORE OUR<BR> WIDE VARITY<BR> OF WINES.</b></h2><br>
-                    <button
-                    class="px-10 py-3 bg-orange-600 text-white hover:bg-red-700 transition duration-300">
-                    Buy A Wine
+                <button class="px-10 py-3 bg-orange-600 text-white hover:bg-red-700 transition duration-300">
+                    Book A Tour
                 </button>
-                
+
             </div>
         </div>
-        
-    </section>
-          <!-- section 2 -->
 
+    </section><br>
+
+     <!-- section 2 about -->
+
+     <section id="about" style="height: 1000px; padding-top: 30px;">
+        <div style="text-align: center; padding-top: 100px;">
+            <p class="text-2xl text-gray-500"><b>ABOUT US</b></p>
+            <p class="text-6xl"><b>HISTORY AND TRADITION <br>OF OUR WINES</b></p>
+        </div>
+        <div  style="display: flex; gap: 90px; padding-left: 300px;">
+            <div>
+               <img src="./Asscts/images/1897.png" style="height: 500px;" >
+
+            </div>
+            <div>
+              <p class="text-xl">Mauris rhoncus orci in imperdiet placerat.<br> Vestibulum euismod nisl suscipit ligula<br> volutpat, a feugiat urna maximus.<br> Cras massa nibh, tincidunt</p> <br> 
+                <p class="text-xl">Donec et nibh maximus, congue est eu, mattis.<br> Praesent ut quam quis quam venenatis fringilla.<br> Morbi vestibulum id tellus commodo mattis.<br> Aliquam erat volutpat. Aenean accumsan id<br> mi nec semper. Lorem ipsum. </p><br>
+                <p class="text-xl">Donec et nibh maximus, congue est eu, mattis.<br> Praesent ut quam quis quam venenatis fringilla.<br> Morbi vestibulum id tellus commodo mattis.<br> Aliquam erat volutpat. Aenean accumsan id<br> mi nec semper. Lorem ipsum. </p>
+
+            </div>
+        </div>
+
+     </section>
+
+    <!-- section 3 -->
+
+    <section id="product" class="h-200 bg-green-900"><br>
+        <div><br><br><br>
+            <h3 class="text-6xl text-white text-center"><b>Our Products</b></h3><br>
+        </div>
+        <div class="grid grid-cols-2 gap-4 p-4 ">
+            <div class=" text-white p-4 pl-30 "><p class="text-3xl pl-50"><b>Red Wine</b></p><img src="./Asscts/images/redwine.png"> </div>
+            <div class="flex">
+                <div class=" text-white p-4 text-center text-2xl"><p><b>Rose Wine</b></p><br><img src="./Asscts/images/rose.jpg"
+                    style="height: 300px; width: 1700px; border-radius: 30px;"></div>
+                <div class=" text-white p-4 text-center text-2xl"><p><b>White Wine</b></p><br><img src="./Asscts/images/whitewineglass.jpg"
+                        style="height: 300px; width: 1800px; border-radius: 30px;"></div>
+                <div class=" text-white p-4 text-center text-2xl"><p><b>Champagne</b></p><br><img src="./Asscts/images/champ.jpg"
+                        style="height: 380px; width: 1900px; border-radius: 30px;"></div>
+            </div>
+
+    </section>
+
+    <!-- section 4 -->
+     <section>
+        <div class="text-center">
+            <p class="text-2xl text-gray-500"><b>HOW WE WORK</b></p><br>
+            <p class="text-4xl text-green-800"><b>THE BEST INGREDIENTS</b></p>
+        </div>
+
+        <div>
+            <div style="display: flex; height: 500px;">
+                <img src="./Asscts/images/Black-Grapes-PNG-High-Quality-Image.png">
+                <img src="./Asscts/images/green-grapes.jpg">
+            </div>
+            <div>
+
+            </div>
+
+        </div>
+     </section>
+       
+
+    <!-- section footer -->
     <section>
+        <footer>
+            <div class="text-white bg-green-800" style="display: flex; gap: 120px; height: 300px; border-radius: 30px; padding-left: 150px; padding-top: 40px;"><br>
+                <div>
+                    <p class="text-4xl"><b>Wines</b></p>
+                    <p class="text-2xl">Stanly Road, Jaffna.<br>Srilanka</p>
+                    <p class="text-2xl">0771234567</p>
+                    <p class="text-2xl">Wine@store.com</p>
+
+                </div>
+
+                <div>
+                    <p class="text-4xl"><b>Contact Details</b></p>
+                    <p class="text-2xl">Stanly Road, Jaffna.<br>Srilanka</p>
+                    <p class="text-2xl">0771234567</p>
+                    <p class="text-2xl">Wine@store.com</p>
+                </div>
+                <div>
+                    <p class="text-4xl"><b>Quick Links</b></p>
+                    <p class="text-2xl">About Us</p>
+                    <p class="text-2xl">Contact Us</p>
+                    <p class="text-2xl">Other Shopes</p>
+                    <p class="text-2xl">Terms & Conditions</p>
+                </div>
+                <div>
+                    <p class="text-4xl"><b>Our Products</b></p>
+                    <p class="text-2xl">Red Wine</p>
+                    <p class="text-2xl">White Wine</p>
+                    <p class="text-2xl">Sparkling wine</p>
+                    <p class="text-2xl">Rose Wine</p>
+                </div>
+
+            </div>
+            <hr>
+           
+        </footer>
+        <div style="display: flex; gap: 1200px;" class="bg-green-800 text-white">
+
+            <div>
+                <p class="text-2xl pl-30">&copy; Copy Write@wine</p>
+            </div>
+
+            <div>
+                <p class="text-2xl">Privicy Policy</p>
+            </div>
+        </div>
 
 
     </section>
+
+    <!-- footer -->
+
+
 
 </body>
 
